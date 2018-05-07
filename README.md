@@ -1,6 +1,6 @@
-# NootLang 🐧
+# NootLang++ 🐧🐧🐧
 The future of programming is here. Finally, a programming language every Pingu can understand!
-NootLang is the most efficient language ever created by a human. **Bask in its glory:**
+NootLang++ is the most inefficient language ever created by a human. **Bask in its glory:**
 
 ## Examples
 ### Hello World
@@ -13,14 +13,14 @@ noOTnoOTnoOTnoOTnoOTnoOTnoOTnoOTNOOtnooTnoOTnoOTnoOTnoOTNOOtnooTnoOTnoOTnooTnoOT
 [it's very good?](https://youtu.be/ygVWpw34cvQ)
 
 ### Other Examples
-NootLang is incredibly easy to pick up thanks to our wide array of fabulous examples with excellent documentation!
+NootLang++ is incredibly easy to pick up thanks to our wide array of fabulous examples with excellent documentation!
 
 [Don't be scared, check 'em out!!](examples)
 
 ## Features
 
 ### Commands
-NootLang is based on brainfuck, and as such, is extremely readable and very simple. If you don't get it, you're basically just an idiot.
+NootLang++ is based on NootLang, and as such, is extremely readable and very simple. If you don't get it, you're basically just an idiot.
 
 ```lua
 nooT	-- Increments the data pointer
@@ -42,17 +42,17 @@ NOOT	-- If no file is open, make a string containing data[dp] chars starting fro
 ```
 
 ### Type Safe?
-Types are too confusing to Pingus, so NootLang doesn't bother with them at all!
-Everything is just a "number." You could technically store a float at the current cell being pointed to. Or a byte. Signed/Unsigned. It doesn't matter!*
+Types are too confusing to Pingus, so NootLang++ doesn't bother with them at all!
+Everything is just a "number." You could technically store a float* at the current cell being pointed to. Or a byte. Signed/Unsigned. It doesn't matter!**
 
-
-*Except when you go to read/write.
+*Floats doesn't exist
+**Except when you go to read/write.
 
 ### Extremely well-written interpreter
 There's definitely no bugs here! Totally solid.
 
 ### "What about bit-shifting or accepting input from the console"?
-We worked very hard to create this monumental achievement in human history*, and we don't think asking for features is very respectful. It'll be there in NootLang++, just be patient!
+We worked very hard to create this monumental achievement in human history*, and we don't think asking for features is very respectful. It'll be there in NootLang++(Not this NootLang++), just be patient!
 In the meantime, just accept input from files and manipulate all of your values manually using addition/subtraction/multiplication/division???
 
 * woke up with a hangover and... apparently I wrote this?
