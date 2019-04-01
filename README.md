@@ -1,5 +1,5 @@
 # YeetLang++
-The future of programming is here. Finally, a programming language every Yeeter can understand!
+The future of programming is here. Finally, a programming language every intellectual can understand!
 NootLang++ is the most inefficient language ever created by a human. **Bask in its glory:**
 
 ### Examples
@@ -32,7 +32,7 @@ YEET	-- If no file is open, make a string containing data[dp] chars starting fro
 ```
 
 ### Type Safe?
-Types are too confusing to Yeeters, so YeetLang++ doesn't bother with them at all!
+Types are too confusing to intellectuals, so YeetLang++ doesn't bother with them at all!
 Everything is just a "number." You could technically store a float* at the current cell being pointed to. Or a byte. Signed/Unsigned. It doesn't matter!**
 
 *Floats doesn't exist
@@ -51,4 +51,4 @@ In the meantime, just accept input from files and manipulate all of your values 
 come again?
 
 ### Under the MIT License
-We want to share the love with everyone. That's why NootLang is proudly released under the MIT License, allowing for future generations of Yeeters to share their creative works without legal restriction!
+We want to share the love with everyone. That's why NootLang is proudly released under the MIT License, allowing for future generations of intellectuals to share their creative works without legal restriction!
