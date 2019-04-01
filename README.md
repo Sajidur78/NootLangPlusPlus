@@ -2,7 +2,7 @@
 The future of programming is here. Finally, a programming language every Yeeter can understand!
 NootLang++ is the most inefficient language ever created by a human. **Bask in its glory:**
 
-### Other Examples
+### Examples
 YeetLang++ is incredibly easy to pick up thanks to our wide array of fabulous examples with excellent documentation!
 
 [Don't be scared, check 'em out!!](examples)
