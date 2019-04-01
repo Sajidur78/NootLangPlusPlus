@@ -28,36 +28,36 @@ local fs = nil
 
 while i <= #instructions do
 	local c = instructions:sub(i, i)
-	if c == "n" or c == "N" then
+	if c == "y" or c == "Y" then
 		c = instructions:sub(i, i+3)
 		--print(c)
 		
-		if c == 'nooT' then
+		if c == 'yeeT' then
 			dp = dp + 1
 			if dp > #data then
 				data[dp] = 0
 			end
-		elseif c == 'Noot' then
+		elseif c == 'Yeet' then
 			dp = dp - 1
-		elseif c == 'noOT' then
+		elseif c == 'yeET' then
 			data[dp] = data[dp] + 1
-		elseif c == 'NOot' then
+		elseif c == 'YEet' then
 			data[dp] = data[dp] - 1
-		elseif c == 'noot' then
+		elseif c == 'yeet' then
 			--subscirbe to redfox comms, give a shotout to simpleflips and check ichigo's hot furry mods
 			output = output .. string.char(data[dp])
-		elseif c == 'NOOt' then
+		elseif c == 'YEEt' then
 			if data[dp] == 0 then
 				while i <= #instructions do
 					c = instructions:sub(i, i+3)
-					if c == 'nOOT' then
+					if c == 'yEET' then
 						ignoreAmount = ignoreAmount - 1
 						if ignoreAmount <= 0 then
 							break
 						end
 					end
 					
-					if c == 'NOOt' then
+					if c == 'YEEt' then
 						ignoreAmount = ignoreAmount + 1
 					end
 					i = i + 4
@@ -65,18 +65,18 @@ while i <= #instructions do
 				
 				ignoreAmount = 0
 			end
-		elseif c == 'nOOT' then
+		elseif c == 'yEET' then
 			if data[dp] ~= 0 then
 				while i > 0 do
 					c = instructions:sub(i, i+3)
-					if c == 'NOOt' then
+					if c == 'YEEt' then
 						ignoreAmount = ignoreAmount - 1
 						if ignoreAmount <= 0 then
 							break
 						end
 					end
 					
-					if c == 'nOOT' then
+					if c == 'yEET' then
 						ignoreAmount = ignoreAmount + 1
 					end
 					i = i - 4
@@ -84,30 +84,30 @@ while i <= #instructions do
 				
 				ignoreAmount = 0
 			end
-		elseif c == "nOot" then
+		elseif c == "yEet" then
 			IncDataTable(dp + 2)
 			data[dp] = data[dp + 1] / data[dp + 2]
-		elseif c == "noOt" then
+		elseif c == "yeEt" then
 			IncDataTable(dp + 2)
 			data[dp] = data[dp + 1] * data[dp + 2]
-		elseif c == "NooT" then
+		elseif c == "YeeT" then
 			IncDataTable(dp + 2)
 			data[dp] = data[dp + 1] | data[dp + 2]
-		elseif c == "nOOt" then
+		elseif c == "yEEt" then
 			IncDataTable(dp + 2)
 			data[dp] = data[dp + 1] & data[dp + 2]
-		elseif c == "NoOt" then
+		elseif c == "YeEt" then
 			data[dp] = string.byte(fs:read(1))
-		elseif c == "NoOT" then
+		elseif c == "YeET" then
 			fs:write(string.char(data[dp]))
-		elseif c == "NOoT" then
+		elseif c == "YEeT" then
 			PrintOutput()
 			print("      .___.")
 			print("     /     \\")
 			print("    | O _ O |")
 			print("    /  \\_/  \\ ")
 			print("  .' /     \\ `.")
-			print(" / _|  noot |_ \\")
+			print(" / _|  yeet |_ \\")
 			print("(_/ |  lang | \\_)")
 			print("    \\       /")
 			print("   __\\_>-<_/__")
@@ -115,7 +115,7 @@ while i <= #instructions do
 			print()
 			print("why did I make this?")
 			break
-		elseif c == "NOOT" then
+		elseif c == "YEET" then
 			if fs == nil then
 				local e = dp + data[dp]
 				local fn = ""
