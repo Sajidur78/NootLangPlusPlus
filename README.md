@@ -1,6 +1,6 @@
 # YeetLang++
 The future of programming is here. Finally, a programming language every intellectual can understand!
-NootLang++ is the most inefficient language ever created by a human. **Bask in its glory:**
+YeetLang++ is the most inefficient language ever created by a human. **Bask in its glory:**
 
 ### Examples
 YeetLang++ is incredibly easy to pick up thanks to our wide array of fabulous examples with excellent documentation!
@@ -10,7 +10,7 @@ YeetLang++ is incredibly easy to pick up thanks to our wide array of fabulous ex
 ## Features
 
 ### Commands
-NootLang++ is based on NootLang, and as such, is extremely readable and very simple. If you don't get it, you're basically just an idiot.
+YeetLang++ is based on YeetLang, and as such, is extremely readable and very simple. If you don't get it, you're basically just an idiot.
 
 ```lua
 yeeT	-- Increments the data pointer
@@ -51,4 +51,4 @@ In the meantime, just accept input from files and manipulate all of your values 
 come again?
 
 ### Under the MIT License
-We want to share the love with everyone. That's why NootLang is proudly released under the MIT License, allowing for future generations of intellectuals to share their creative works without legal restriction!
+We want to share the love with everyone. That's why YeetLang is proudly released under the MIT License, allowing for future generations of intellectuals to share their creative works without legal restriction!
